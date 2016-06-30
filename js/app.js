@@ -634,7 +634,7 @@ document.addEventListener('keydown', function (event) {
 	if (event.which == backSlah) {
 		event.preventDefault();
 		keyCodeTxt.innerHTML = backSlah;
-		symbolTxt.innerHTML = '\ back slash'
+		symbolTxt.innerHTML = "back slash"
 	}
 	if (event.which == closeBracket) {
 		event.preventDefault();
